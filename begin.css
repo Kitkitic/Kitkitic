@@ -1,0 +1,63 @@
+/* Оформление сайта на CSS может выглядеть следующим образом: */
+
+/* 1. Начало файла CSS: */
+
+/* комментарий к файлу CSS */
+
+/* определение стиля для тега body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* определение ссылок */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* определение стиля для заголовков H1 - H6 */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: black;
+}
+
+/* определение класса для блока content */
+.content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #f0f0f0;
+}
+
+
+2. Использование файла в HTML-странице:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Мой сайт</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Заголовок H1</h1>
+        <h2>Заголовок H2</h2>
+        <h3>Заголовок H3</h3>
+        <p>Простой текст</p>
+        <div class="content">
+            <p>Блок content</p>
+        </div>
+        <a href="http://example.com">Ссылка</a>
+    </body>
+</html>
